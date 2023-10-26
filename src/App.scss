@@ -1,7 +1,10 @@
 #root {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-areas:  "h h h"
+                        "lb m rb" 
+                        "f f f";
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 100px 1fr 50px;
   height: 100vh;
   width: 100%;
   max-width: 1280px;
