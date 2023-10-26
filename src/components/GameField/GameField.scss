@@ -1,0 +1,18 @@
+.game-field{
+  display: grid;
+  place-content: center;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.large{
+  grid-template-columns: repeat(8, 100px);
+}
+
+.medium{
+  grid-template-columns: repeat(6, 100px);
+}
+
+.small{
+  grid-template-columns: repeat(4, 100px);
+}

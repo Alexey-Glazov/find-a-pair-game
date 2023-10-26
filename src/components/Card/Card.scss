@@ -1,0 +1,25 @@
+.image{
+  width: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  border: 2px solid rgb(255, 255, 255);
+  .overlay{
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(116, 141, 7, 0.747);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in-out;
+    transition: backdrop-filter 0.5s ease-in-out;
+  }
+  .clicked{
+    background-color: rgba(252, 151, 0, 0);
+    backdrop-filter: blur(0px);
+  }
+}
+.image:hover{
+  border: 2px solid rgb(99, 56, 201);
+}
